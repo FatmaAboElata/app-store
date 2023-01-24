@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appstore</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navScrollSpy">
+
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-weight-scale text-white me-2"></i><span
+                    class="text-white">App Name</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" id="navScrollSpy"
+                    style="--bs-scroll-height: 100px;">
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="#header">To the top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#description">Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#trailer">Trailer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#showcase">Showcase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#reviews">Reviews</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header text-center" id="header">
+        <div class="container pt-5">
+            <div class="row pt-5">
+                <h1 class="pt-5 text-primary display-1">APP NAME</h1>
+                <h3 class="pt-5 text-white display-3 pb-4">Lorem ipsum dolor</h3>
+                <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> <br>
+                    Laborum unde dolores ullam nostrum?
+                </p>
+                <strong class="text-white mb-3">
+                    Download now on:
+                </strong>
+                <div>
+                    <a href="#!" class="btn btn-primary btn-lg me-3"><i
+                            class="fa-brands fa-app-store-ios text-white me-2"></i> App Store</a>
+                    <a href="#!" class="btn btn-primary btn-lg"><i class="fa-brands fa-google-play text-white me-2"></i>
+                        Google Play</a>
+                </div> <!-- btn -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </header>
+
+    <section id="description" class="pt-3">
+        <div class="container">
+            <h1 class="pt-5 text-black text-center display-3 pb-2">What is App Name?</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates sint at! Laboriosam
+                ducimus expedita reiciendis suscipit quibusdam ad ipsa distinctio voluptatem ullam adipisci id
+                molestias, explicabo iusto atque. Libero voluptates, maxime ipsa iure quis veritatis obcaecati vitae
+                eaque exercitationem non saepe enim! <br><br>
+
+                Ducimus et aperiam tempora pariatur, excepturi est mollitia alias, hic voluptas, porro repudiandae
+                voluptatum nulla minus ipsam repellat accusamus voluptate nam modi!
+
+            </p>
+        </div><!-- container -->
+    </section> <!-- description -->
+
+    <section id="trailer" class="text-center">
+        <div class="container">
+            <h1 class="pt-5 text-black text-center display-3 pb-2">App Name trailer</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
+            <iframe class="w-100" height="610px" src="https://www.youtube.com/embed/MC8T7sqxUdU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div> <!-- container -->
+    </section> <!-- trailer -->
+
+    <section id="showcase" class="text-center">
+        <div class="container">
+            <h1 class="pt-5 text-black text-center display-3 pb-2">App Name in action</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+
+                    <li type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></li>
+                    <li type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></li>
+                    <li type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></li>
+                    <li type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></li>
+
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="image/slide1.jpg" class="d-block w-100 slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div> <!-- slide 1 -->
+
+                    <div class="carousel-item">
+                        <img src="image/slide2.jpg" class="d-block w-100 slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div> <!-- slide 2 -->
+
+                    <div class="carousel-item">
+                        <img src="image/slide3.jpg" class="d-block w-100 slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5> third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div> <!-- slide 3 -->
+
+                    <div class="carousel-item">
+                        <img src="image/slide4.jpg" class="d-block w-100 slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fourth slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div> <!-- slide 4 -->
+
+                </div> <!-- carousel-inner -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div><!-- container -->
+    </section> <!-- showcase -->
+
+    <section id="features" class="text-center">
+        <div class="container">
+            <h1 class="pt-5 text-black text-center display-3 pb-2">Features</h1>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <i class="fa-solid fa-paintbrush fa-3x mb-3  text-info"></i> <br>
+                    <h3 class="pb-4">Feature heading</h3>
+                    <p>Illum nesciunt, nostrum laboriosam provident sed inventore molestias blanditiis.</p>
+                    <div class="mb-5">
+                        <a href="#!" class="btn btn-info btn-sm">Read more...</a>
+                    </div><!-- button -->
+                </div><!-- col1 -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <i class="fa-solid fa-video fa-3x mb-3  text-info"></i> <br>
+                    <h3 class="pb-4">Feature heading</h3>
+                    <p>Illum nesciunt, nostrum laboriosam provident sed inventore molestias blanditiis.</p>
+                    <div class="mb-5">
+                        <a href="#!" class="btn btn-info btn-sm">Read more...</a>
+                    </div><!-- button -->
+                </div><!-- col2 -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <i class="fa-brands fa-instagram fa-3x mb-3  text-info"></i> <br>
+                    <h3 class="pb-4">Feature heading</h3>
+                    <p>Illum nesciunt, nostrum laboriosam provident sed inventore molestias blanditiis.</p>
+                    <div class="mb-5">
+                        <a href="#!" class="btn btn-info btn-sm">Read more...</a>
+                    </div><!-- button -->
+                </div><!-- col3 -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <i class="fa-brands fa-microblog fa-3x mb-3  text-info"></i></i> <br>
+                    <h3 class="pb-4">Feature heading</h3>
+                    <p>Illum nesciunt, nostrum laboriosam provident sed inventore molestias blanditiis.</p>
+                    <div class="mb-5">
+                        <a href="#!" class="btn btn-info btn-sm">Read more...</a>
+                    </div><!-- button -->
+                </div><!-- col4 -->
+
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- features -->
+
+    <section id="pricing" class="text-center">
+        <div class="container">
+            <h1 class="pt-5 text-black text-center display-3 pb-2">Choose your plan</h1>
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="card mb-5  w-100">
+                        <div class="card-header py-3 bg-success">
+                            <h3 class="text-white">Starter</h3>
+                            <h4 class="text-white">Free</h4>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Temporibus omnis dolore officia nemo.</li>
+                            <li class="list-group-item"><i class="fa-solid fa-paintbrush me-2"></i> Item description
+                            </li>
+                            <li class="list-group-item "><i class="fa-brands fa-instagram me-2"></i> Item description
+                            </li>
+                        </ul>
+                        <div class="card-footer py-2">
+                            <a href="#!" class="btn btn-success btn-lg">Select plan</a>
+                        </div>
+                    </div>
+                </div><!-- price1 -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="card mb-5 w-100">
+                        <div class="card-header py-3 bg-danger">
+                            <h3 class="text-white">Semipro</h3>
+                            <h4 class="text-white">$4.99 / month</h4>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Temporibus omnis dolore officia nemo.</li>
+                            <li class="list-group-item"><i class="fa-solid fa-paintbrush me-2"></i> Item description
+                            </li>
+                            <li class="list-group-item "><i class="fa-brands fa-instagram me-2"></i> Item description
+                            </li>
+                            <li class="list-group-item "><i class="fa-solid fa-gears me-2"></i> Item description</li>
+                        </ul>
+                        <div class="card-footer py-2">
+                            <a href="#!" class="btn btn-danger btn-lg">Select plan</a>
+                        </div>
+                    </div>
+                </div><!-- price2 -->
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="card mb-5 w-100">
+                        <div class="card-header py-3 bg-warning">
+                            <h3 class="text-white">Pro</h3>
+                            <h4 class="text-white">$4.99 / month</h4>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Temporibus omnis dolore officia nemo.</li>
+                            <li class="list-group-item"><i class="fa-solid fa-paintbrush me-2"></i> Item description
+                            </li>
+                            <li class="list-group-item "><i class="fa-brands fa-instagram me-2"></i> Item description
+                            </li>
+                            <li class="list-group-item "><i class="fa-solid fa-gears me-2"></i> Item description</li>
+                            <li class="list-group-item "><i class="fa-solid fa-cloud me-2"></i> Item description</li>
+                        </ul>
+                        <div class="card-footer py-2">
+                            <a href="#!" class="btn btn-warning btn-lg">Select plan</a>
+                        </div>
+                    </div>
+                </div><!-- price3 -->
+
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- pricing -->
+    <section id="reviews" class="text-center">
+        <div class="container">
+            <h1 class="pt-5 text-black text-center display-3 pb-2">Reviews</h1>
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 me-auto">
+                        <i class="fa-solid fa-quote-left fa-2x me-1"></i>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam atque ex illo illum, tempore reprehenderit labore possimus repellat perferendis sunt, tenetur fugit facilis placeat exercitationem, voluptatem sint inve 
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam atque ex illo illum, tempore reprehenderit labore possimus repellat perferendis sunt, tenetur fugit facilis placeat exercitationem, voluptatem sint inve. 
+                        <i class="fa-solid fa-quote-right fa-2x me-1"></i>
+                        <figcaption class="blockquote-footer mt-2 mb-5">Firstname Lastname (September 01 2020 12:00)</figcaption>
+                    </div><!-- colr1 -->
+
+                    <div class="col-md-4 col-sm-6 me-auto">
+                        <i class="fa-solid fa-quote-left fa-2x me-1"></i>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam atque ex illo illum, tempore reprehenderit labore possimus repellat perferendis sunt, tenetur fugit facilis placeat exercitationem, voluptatem sint inve 
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam atque ex illo illum, tempore reprehenderit labore possimus repellat perferendis sunt, tenetur fugit facilis placeat exercitationem, voluptatem sint inve. 
+                        <i class="fa-solid fa-quote-right fa-2x me-1"></i>
+                        <figcaption class="blockquote-footer mt-2 mb-5">Firstname Lastname (September 01 2020 12:00)</figcaption>
+                    </div><!-- colr2 -->
+                    <div class="col-md-4 col-sm-6 me-auto">
+                        <i class="fa-solid fa-quote-left fa-2x me-1"></i>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam atque ex illo illum, tempore reprehenderit labore possimus repellat perferendis sunt, tenetur fugit facilis placeat exercitationem, voluptatem sint inve 
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam atque ex illo illum, tempore reprehenderit labore possimus repellat perferendis sunt, tenetur fugit facilis placeat exercitationem, voluptatem sint inve. 
+                        <i class="fa-solid fa-quote-right fa-2x me-1"></i>
+                        <figcaption class="blockquote-footer mt-2 mb-5">Firstname Lastname (September 01 2020 12:00)</figcaption>
+                    </div><!-- colr3 -->
+
+                </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- reviews -->
+
+    <section class="contact bg-secondary py-3">
+        <div class="container">
+            <h1 class=" text-white text-center display-3 pb-2">Newsletter</h1>
+            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="col-sm-6">
+                   <input type="text" placeholder="Firstname Lastname" class="form-control">
+                </div> <!-- col1 -->
+                <div class="col-sm-6">
+                   <input type="email" placeholder="mail@example.com" class="form-control">
+                </div><!-- col2 -->
+                <div class="col-sm-6 mt-3">
+                    <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <span class="text-white">I have read and accept the <a href="#!">terms and conditions</a> .</span><br> <br>
+                    <small class="text-white">You can unsubcribe from the mailing list at any time.</small>
+                </div><!-- col3 -->
+                <div class="col-sm-6 mt-3">
+                    <button type="submit" class="btn btn-dark d-block ms-auto mt-4 mb-5 text-white">sign up</button>
+                </div><!-- col3 -->
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <footer class="p-5 bg-light">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6">
+                    <h6>Quick links</h6>
+                    <small>
+                        <a href="#">Home</a><br>
+                        <a href="#">Servies</a><br>
+                        <a href="#">About</a><br>
+                        <a href="#">Team</a><br>
+                        <a href="#">Contact</a>
+                    </small>
+
+                </div><!-- col1 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <h6>Information</h6>
+                    <small>
+                        <a href="#">Legal information</a><br>
+                        <a href="#">Job opportunities</a><br>
+                        <a href="#">Frequently Asked Questions</a><br>
+                    </small>
+
+                </div><!-- col2 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <h6>Follow us</h6>
+                    <small>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook rounded-circle text-primary me-1"></i>Facebook
+                        </a><br>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram rounded-circle text-primary me-1"></i>Instagram
+                        </a><br>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter rounded-circle text-primary me-1"></i>Twitter
+                        </a><br>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube rounded-circle text-primary me-1"></i>Youtube
+                        </a><br>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in rounded-circle text-primary me-1"></i>Linkedin
+                        </a>
+                    </small>
+
+                </div><!-- col3 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <h6>Our location</h6>
+                    <h6>Company Name</h6>
+                    <small>
+                        Steet Name <br>
+                        ZIP code and city <br>
+                        <i class="fa-solid fa-phone rounded-circle me-1"></i><a href="#">(123) 456-7890</a><br>
+                        <i class="fa-solid fa-envelope rounded-circle me-1"></i><a href="#">info@domain.com</a><br>
+                        </small>
+
+                </div><!-- col4 -->
+
+            </div><!-- row -->
+            <h4 class="text-center mt-2">&copy; 2022 Fatma Abo-Elata All rights reserved.</h4>
+        </div><!-- container -->
+    </footer>
+
+
+
+            <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
